@@ -4,7 +4,7 @@ const config: Config = {
   theme: {
     extend: {
       aspectRatio: {
-        "banner": "2048 / 1100",
+        "banner": "2048 / 1200",
       },
     },
   },

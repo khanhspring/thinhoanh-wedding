@@ -80,7 +80,6 @@ const HomePage: NextPage = () => {
                 <li className="py-1"><Link onClick={(e) => handleMenuClick(e, 'bride')} href="#bride">Nhà gái</Link></li>
                 <li className="py-1"><Link onClick={(e) => handleMenuClick(e, 'groom')} href="#groom">Nhà trai</Link></li>
                 <li className="py-1"><Link onClick={(e) => handleMenuClick(e, 'message')} href="#message">Gửi lời chúc</Link></li>
-                <li className="py-1"><Link onClick={(e) => handleMenuClick(e, 'bank-info')} href="#bank-info">Mừng cưới</Link></li>
               </ul>
             </div>
           </div>
@@ -207,17 +206,17 @@ const HomePage: NextPage = () => {
                 <div>
                   <h3 className="text-2xl md:text-[32px] uppercase tracking-wider font-semibold">Tiệc cưới tại gia đình <br className="md:hidden" /> nhà gái</h3>
                   <div className="mt-7 text-xl leading-9">
-                    <p>Được tổ chức vào lúc 09 giờ 00 phút</p>
-                    <p>Chủ nhật ngày 01 / 01 / 2024</p>
-                    <p>Địa chỉ: Thôn Liễu Thạnh, Bình Nguyên, Thăng Bình, Quảng Nam</p>
+                    <p>Được tổ chức vào lúc 10 giờ 30 phút</p>
+                    <p>Thứ hai ngày 01 / 01 / 2024</p>
+                    <p>Địa chỉ: Sân thể dục thể chất, trường THPT Thái Phiên, khu phố 8, T.T Hà Lam, Thăng Bình, Quảng Nam</p>
                   </div>
                   <div className="grid grid-cols-1 md:grid-cols-[1fr_1fr] gap-5 mt-7">
                     <div className="rounded-lg backdrop-blur-sm bg-white/30 p-5 flex items-center">
-                      <Countdown date="2024-01-01T02:00:00.999Z" />
+                      <Countdown date="2024-01-01T03:30:00.999Z" />
                     </div>
                     <Link
                       className="hero relative rounded-lg min-h-[100px] w-full md:max-w-[200px] cursor-pointer text-white"
-                      href="#"
+                      href="https://maps.app.goo.gl/gnkbzEmfeqGBhKFG6"
                       target="_blank"
                     >
                       <Image
@@ -262,13 +261,13 @@ const HomePage: NextPage = () => {
                 <div>
                   <h3 className="text-2xl md:text-[32px] uppercase tracking-wider font-semibold">Tiệc cưới tại gia đình <br className="md:hidden" /> nhà trai</h3>
                   <div className="mt-7 text-xl leading-9">
-                    <p>Được tổ chức vào lúc 09 giờ 00 phút</p>
-                    <p>Chủ nhật ngày 05 / 01 / 2024</p>
+                    <p>Được tổ chức vào lúc 10 giờ 00 phút</p>
+                    <p>Thứ sáu ngày 05 / 01 / 2024</p>
                     <p>Địa chỉ: Thôn Yên Sơn, Yên Phú, Văn Yên, Yên Bái</p>
                   </div>
                   <div className="grid grid-cols-1 md:grid-cols-[1fr_1fr] gap-5 mt-7">
                     <div className="rounded-lg backdrop-blur-sm bg-white/40 p-5 flex items-center">
-                      <Countdown date="2024-01-05T02:00:00.999Z" />
+                      <Countdown date="2024-01-05T03:00:00.999Z" />
                     </div>
                     <Link
                       className="hero relative rounded-lg min-h-[100px] w-full md:max-w-[200px] cursor-pointer text-white"
